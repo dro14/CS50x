@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <title>Trivia!</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section" id="question1">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>What does it mean to be useful?</h3>
+                <h3 id="correctness1"></h3>
+                <button type="button" id="option1">Doing things that bring use to you and your loved ones</button>
+                <button type="button" id="option2">Creating things that are helpful to people in their development and work</button>
+                <button type="button" id="option3">Giving hope to people and make them dream</button>
+                <button type="button" id="option4">Doing good deeds so that people would be grateful that you exist(ed)</button>
+                <button type="button" id="option5">All of them</button>
+            </div>
+
+            <div class="section" id="question2">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>What is the capital of Uzbekistan?</h3>
+                <h3 id="correctness2"></h3>
+                <input type="text" id="answer" placeholder="Answer">
+                <button type="button">Check answer</button>
+            </div>
+        </div>
+        <script src="code.js"></script>
+    </body>
+</html>
